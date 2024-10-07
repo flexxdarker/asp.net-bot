@@ -1,4 +1,4 @@
-namespace WebLaptop
+namespace WebComp
 {
     public class WeatherForecast
     {
