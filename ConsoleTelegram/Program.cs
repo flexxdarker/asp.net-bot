@@ -9,7 +9,7 @@ using Telegram.Bot.Types.Enums;
 
 Console.WriteLine("Chat boot");
 Thread.Sleep(5000);
-string token = "7524090692:AAGveiBO-MnfJF50naLhZVUvslWnC5C5A1Q";
+string token = "7993152668:AAHIosklAkiZ-9ilW7KMfbaeHjn9XNgqt2o";
 List<long> adminsChatId = [5254681094];
 adminsChatId.AddRange((await GetUsersAsync(true)).Select(x=>x.Id));
 Console.WriteLine($"Admins - {adminsChatId.Count}");
