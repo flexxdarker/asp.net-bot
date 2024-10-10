@@ -29,6 +29,7 @@ async Task Update(ITelegramBotClient client, Update update, CancellationToken to
 
     var message = update.Message;
 
+
     if (message != null) 
     {
         if (!adminsChatId.Contains(message.Chat.Id))
